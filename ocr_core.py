@@ -5,7 +5,7 @@ except ImportError:
 from PIL import ImageEnhance
 import pytesseract
 from io import BytesIO
-pytesseract.pytesseract.tesseract_cmd=r'C:\Program Files (x86)\Tesseract-OCR\tesseract'
+# pytesseract.pytesseract.tesseract_cmd=r'C:\Program Files (x86)\Tesseract-OCR\tesseract'
 def ocr_core(filename):
     """
     This function will handle the core OCR processing of images.
